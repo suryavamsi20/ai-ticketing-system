@@ -1,0 +1,30 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="body" x1="16" y1="16" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#C9D9FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="28" y1="52" x2="68" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ED5FF"/>
+      <stop offset="1" stop-color="#6B7CFF"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="34" y1="36" x2="62" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CF3FF"/>
+      <stop offset="1" stop-color="#6FE2FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="16" width="56" height="40" rx="14" fill="url(#body)" stroke="#B9CBF6" stroke-width="2"/>
+  <rect x="28" y="24" width="40" height="24" rx="8" fill="#101B3F"/>
+
+  <circle cx="28" cy="36" r="5" fill="#8FC8FF"/>
+  <circle cx="68" cy="36" r="5" fill="#8FC8FF"/>
+
+  <path d="M38 36c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4z" fill="url(#eye)"/>
+  <path d="M58 36c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4z" fill="url(#eye)"/>
+
+  <rect x="26" y="56" width="44" height="30" rx="14" fill="url(#body)" stroke="#B9CBF6" stroke-width="2"/>
+  <path d="M36 62h24a8 8 0 0 1-8 8h-8a8 8 0 0 1-8-8z" fill="url(#accent)"/>
+  <circle cx="48" cy="76" r="6" fill="#86C9FF"/>
+  <circle cx="48" cy="76" r="3" fill="#C9F0FF"/>
+</svg>

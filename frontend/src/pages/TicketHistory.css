@@ -1,0 +1,148 @@
+.history-wrap {
+  width: min(1240px, calc(100% - 48px));
+  margin: 22px auto 40px;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.history-head {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.history-head h1 {
+  margin: 0;
+}
+
+.history-tools {
+  display: flex;
+  gap: 10px;
+}
+
+.history-tools input {
+  min-width: 340px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.export-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  cursor: pointer;
+}
+
+.history-table-wrap {
+  margin-top: 0;
+  background: var(--panel-strong);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 13px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.subject-main {
+  font-weight: 700;
+}
+
+.subject-sub {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
+  max-width: 450px;
+}
+
+.pill {
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.priority-high {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.priority-medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.priority-low {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-open {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.status-in-progress {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-resolved,
+.status-closed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.no-data {
+  text-align: center;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.admin-comment-cell {
+  max-width: 260px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .history-wrap {
+    width: calc(100% - 24px);
+  }
+
+  .history-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .history-tools {
+    flex-direction: column;
+  }
+
+  .history-tools input {
+    min-width: 0;
+    width: 100%;
+  }
+}
+

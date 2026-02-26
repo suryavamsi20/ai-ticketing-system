@@ -1,0 +1,16 @@
+.settings-container {
+  width: min(1240px, calc(100% - 48px));
+  margin: 22px auto 40px;
+  padding: 22px;
+  color: var(--text-primary);
+  border-radius: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 760px) {
+  .settings-container {
+    width: calc(100% - 24px);
+  }
+}
